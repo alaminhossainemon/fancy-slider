@@ -138,6 +138,7 @@ searchBtn.addEventListener('click', function () {
 })
 
 sliderBtn.addEventListener('click', function () {
+  toggleSpinner(true)
   createSlider()
 })
 
